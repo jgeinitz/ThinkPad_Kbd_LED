@@ -1,0 +1,15 @@
+Quick and dirty to turn off the keyboard backlight
+
+Must be istalled setuserid root
+
+compile with:
+
+	gcc -static thinkpad_kbd_led_off.c -o thinkpad_kbd_led_off
+
+install with:
+
+	# mv thinkpad_kbd_led_off <destination>
+	# chown root <destination>/thinkpad_kbd_led_off
+	# chmod 4555 <destination>/thinkpad_kbd_led_off
+
+
